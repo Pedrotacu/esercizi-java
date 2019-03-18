@@ -8,7 +8,7 @@ public class MyClass {
 	
 		try {
 			// caricare il driver per il DB
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver");
 			// costruisco la connessione fornendo queste tre informazioni:
 			// 1: JDBC connection string (indirizzo, porta, database)
 			// 2: username
@@ -23,10 +23,12 @@ public class MyClass {
 			while(dati.next()) {
 				// durante ogni iterazione, accedo ad un record alla volta
 				System.out.print(dati.getInt("Id") + " | ");
-				System.out.print(dati.getString("FirstName") + " | ");
-				System.out.print(dati.getString("LastName") + " | ");
-				System.out.print(dati.getString("Nazione") + " | ");
-				System.out.print(dati.getDate("DataDiNascita") + " | ");
+				System.out.print(dati.getString("nome") + " | ");
+				System.out.print(dati.getString("cognome") + " | ");
+				System.out.print(dati.getInt("eta") + " | ");
+				System.out.print(dati.getString("sesso") + " | ");
+				System.out.print(dati.getString("email") + " | ");
+				System.out.println(dati.getString("password") + " | ");
 			}
 			
 		} catch (ClassNotFoundException e) {
