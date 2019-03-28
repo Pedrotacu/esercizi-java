@@ -1,4 +1,4 @@
-package Java_Classes;
+package java_Classes;
 
 public class Metodo_di_classe {
 	static void mioMetodo() {

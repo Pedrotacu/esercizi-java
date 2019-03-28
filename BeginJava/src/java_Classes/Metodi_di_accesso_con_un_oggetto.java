@@ -1,4 +1,4 @@
-package Java_Classes;
+package java_Classes;
 
 public class Metodi_di_accesso_con_un_oggetto {
 	

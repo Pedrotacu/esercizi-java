@@ -1,4 +1,4 @@
-package Java_Classes;
+package java_Classes;
 
 
 /* Tutto in java è associato a classi e oggetti, insieme ai realtivi attributi e metodi.

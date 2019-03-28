@@ -1,4 +1,4 @@
-package Java_Classes;
+package java_Classes;
 
 public class Attributi_multipli {
 	String name = "Pedro";

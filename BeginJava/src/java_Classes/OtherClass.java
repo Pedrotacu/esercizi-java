@@ -1,4 +1,4 @@
-package Java_Classes;
+package java_Classes;
 
 public class OtherClass {
 	public static void main(String[] args) {

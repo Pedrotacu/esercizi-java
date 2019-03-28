@@ -1,4 +1,4 @@
-package Java_Classes;
+package java_Classes;
 
 public class Oggetti_Multipli {
 	int p = 200;

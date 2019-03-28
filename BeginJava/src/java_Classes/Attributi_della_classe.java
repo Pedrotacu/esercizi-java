@@ -1,4 +1,4 @@
-package Java_Classes;
+package java_Classes;
 // MODIFICA ATTRIBUTI ("final" impedisce di modificare l'attributo)
 public class Attributi_della_classe {
 	/* final */int x = 15;	
